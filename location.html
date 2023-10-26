@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NOURAN</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+
+</head>
+
+<body>
+
+    <nav>
+        <a href="index.html"><label class="logo">NOURAN</label></a>
+        <ul>
+            <li><a class="active" href="index.html">Acceuil</a></li>
+            <li><a href="vente.html">Vente</a></li>
+            <li><a href="location.html">Location</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="annonce.html">Deposer</a></li>
+            <li><a href="index.php">Connexion</a></li>
+
+
+        </ul>
+    </nav>
+    <div class="big">
+
+        <div class="flex">
+            <div class="s1">
+                <h2>S1 meublé neuf à louer aux jardins de Carthage</h2>
+                <div class="paragraphe">
+                    <img src="img/image-1.jpg" alt="" width="200px" height="200px">
+                    <p>NOURAN jardins de Carthage vous propose à la location
+                        un bel appartement richement meublé situé
+                        dans
+                        une
+                        résidence calme et sécurisée.</p>
+                    <p id="hiddenMessage" style="display: none;">
+                        La parti jour se compose d'un coin repas un salon lumineux grâce à l'ouverture de son balcon et
+                        une
+                        cuisine entièrement équipée.
+                        La partie nuit indépendante abrite une chambre à coucher avec dressing et une salle d'eau avec
+                        douche à
+                        l'italienne.</p>
+                </div>
+                <button onclick="revealMessage()" type="button" class="btn btn-dark">Voir Plus</button>
+                <button onclick="Message()" type="button" class="btn btn-dark">Voir Moins</button>
+                <a href="contact.html"> <button type="button" class="btn btn-primary">Contactez-nous</button></a>
+            </div>
+
+
+            <div class="s2">
+                <h2>S2 Neuf à louer aux Jardins de Carthage </h2>
+                <div class="paragraphe">
+                    <img src="img/image-1 (1).jpg" alt="" width="200px" height="200px">
+                    <p>NOURAN jardins de Carthage vous propose à la location un bel appartement neuf situé dans une
+                        petite
+                        résidence récemment construite, calme et sécurisée.</p>
+                        <p id="hiddenMessage2" style="display: none;">
+                        Ce dernier se compose d'un salon spacieux et lumineux grâce à l'ouverture de son balcon, une
+                        cuisine
+                        avec séchoir entièrement aménagée d'une hotte aspirante, plaque de cuisson et four et une salle
+                        d'eau invité qui complète la partie jour.
+                        La partie nuit indépendante</p>
+                </div>
+                <button onclick="revealMessage2()" type="button" class="btn btn-dark">Voir Plus</button>
+                <button onclick="Message2()" type="button" class="btn btn-dark">Voir Moins</button>
+                <a href="contact.html"> <button type="button" class="btn btn-primary">Contactez-nous</button></a>
+            </div>
+
+
+
+
+            <div class="s1">
+                <h2>S1 Neuf avec vue dégagée à louer aux Jardins de Carthage</h2>
+                <div class="paragraphe">
+                    <img src="img/download.jpg" alt="" width="200px" height="200px">
+                    <p>NOURAN jardins de Carthage vous propose à la location un bel appartement neuf situé une
+                        résidence
+                        récemment construite et près de toutes commodités.</p>
+                        <p id="hiddenMessage3" style="display: none;">
+                        Ce dernier se compose d'un salon spacieux et lumineux grâce à l'ouverture de son balcon qui
+                        donne
+                        sur une vue dégagée, une cuisine américaine qui est équipée d'une plaque de cuisson, un four et
+                        une
+                        hotte aspirante et une salle d'eau invité qui complète la partie jour.</p>
+                </div>
+                <button onclick="revealMessage3()" type="button" class="btn btn-dark">Voir Plus</button>
+                <button onclick="Message3()" type="button" class="btn btn-dark">Voir Moins</button>
+                <a href="contact.html"> <button type="button" class="btn btn-primary">Contactez-nous</button></a>
+            </div>
+
+
+            <div class="s2">
+                <h2>Duplex rénove avec piscine </h2>
+                <div class="paragraphe">
+                    <img src="img/image-1 (2).jpg" alt="" width="200px" height="200px">
+                    <p>NOURAN ARCANE immobilière à la Marsa vous propose la location d’un luxueux Duplex avec jardin
+                        et
+                        piscine à Gammarth. </p>
+                        <p id="hiddenMessage4" style="display: none;">
+                        A l’entrée , vous trouverez un joli salon et une salle à manger donnant
+                        directement une cuisine moderne totalement équipée avec baie-vitrée ouvrant directement sur la
+                        piscine et le jardin. Vous disposerez des placards dans le hall de la maison ainsi qu'une
+                        chambre à
+                        coucher. </p>
+                </div>
+                <button onclick="revealMessage4()" type="button" class="btn btn-dark">Voir Plus</button>
+                <button onclick="Message4()" type="button" class="btn btn-dark">Voir Moins</button>
+                <a href="contact.html"> <button type="button" class="btn btn-primary">Contactez-nous</button></a>
+            </div>
+
+        </div>
+    </div>
+    <div class="flex">
+        <div class="s1">
+            <h2>Location appartement vue mer</h2>
+            <div class="paragraphe">
+                <img src="img/mer.jpg" alt="" width="200px" height="200px">
+                <p>Arcane immobilière propose un S3 a louer a la Marsa </p>
+                <p id="hiddenMessage5" style="display: none;">
+                    Cet appartement bénéficie d’une bonne orientation
+                    et d'une vue mer à couper le soufle et se situe dans l'un des plus beaux quartiers de la marsa
+                    proche de toutes les commodités ( restos , magasin , epicerie , ... ) A l’entrée, vous disposerez
+                    d’un salon très bien ensoleillés avec terrasse vue mer et une cuisine avec séchoir et une salle
+                    d'eau pour invité.</p>
+            </div>
+            <button onclick="revealMessage5()" type="button" class="btn btn-dark">Voir Plus</button>
+            <button onclick="Message5()" type="button" class="btn btn-dark">Voir Moins</button>
+            <a href="contact.html"> <button type="button" class="btn btn-primary">Contactez-nous</button></a>
+        </div>
+
+
+        <div class="s2">
+            <h2>Duplex S3 à louer aux Berges du lac 2 </h2>
+            <div class="paragraphe">
+                <img src="img/duplex.jpg" alt="" width="200px" height="200px">
+                <p>NOURAN Newkey Lac 2 propose à la location un duplex S3 situé dans une résidence calme et sécurisé
+                    aux Berges du Lac 2. </p>
+                    <p id="hiddenMessage6" style="display: none;">
+                    Le rez-de-chaussé se compose d'un salon, séjour, une cuisine équipée et une
+                    salle d'eau invités. A
+                    l'étage on trouve une suite parentale, deux chambres à coucher et une salle de bain commune.Une
+                    place de parking au sous-so</p>
+            </div>
+            <button onclick="revealMessage6()" type="button" class="btn btn-dark">Voir Plus</button>
+                <button onclick="Message6()" type="button" class="btn btn-dark">Voir Moins</button>
+                <a href="contact.html"> <button type="button" class="btn btn-primary">Contactez-nous</button></a>
+        </div>
+
+
+
+        <div class="s1">
+            <h2>Appartement s2 à la Marsa vue sur mer</h2>
+            <div class="paragraphe">
+                <img src="img/224.jpg" alt="" width="200px" height="200px">
+                <p>NOURAN jNewkey la Marsa met à la location un appartement s2 </p>
+                <p id="hiddenMessage7" style="display: none;">
+                composé d' une cuisine à l'
+                    americaine, deux suites, une salle de douche à l' extérieur et une terrasse qui donne sur la mer.
+                    Référence du bien: Ref3125a</p>
+            </div>
+            <button onclick="revealMessage7()" type="button" class="btn btn-dark">Voir Plus</button>
+            <button onclick="Message7()" type="button" class="btn btn-dark">Voir Moins</button>
+            <a href="contact.html"> <button type="button" class="btn btn-primary">Contactez-nous</button></a>
+        </div>
+
+
+        <div class="s2">
+            <h2>Location Appartement S1 Meublé Au Lac 2 </h2>
+            <div class="paragraphe">
+                <img src="img/image-1 (3).jpg" alt="" width="200px" height="200px">
+                <p>NOURAN Location Appartement S1 Meublé Au Lac 2
+                    L’agence 2S IMMO propose à la location un appartement S 1 meublé situé à proximité de toute
+                    commodité au Lac 2.
+                </p>
+                <p id="hiddenMessage8" style="display: none;" >
+                    L’appartement dispose d’un salon lumineux donnant sur un balcon et une cuisine équipée.
+                    Il comporte une chambre à coucher avec dressing et une salle de bain.. </p>
+            </div>
+            <button onclick="revealMessage8()" type="button" class="btn btn-dark">Voir Plus</button>
+            <button onclick="Message8()" type="button" class="btn btn-dark">Voir Moins</button>
+            <a href="contact.html"> <button type="button" class="btn btn-primary">Contactez-nous</button></a>
+        </div>
+
+    </div>
+    </div>
+
+
+
+
+
+
+
+<script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    
+    list-style: none;
+    box-sizing: border-box;
+    
+  }
+
+body{
+    
+    font-family:Montserrat;
+}
+nav{
+    height: 80px;
+    width: 100%;
+}
+label.logo{
+    color: #9900F0;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+}
+nav ul{
+    float: right;
+    margin-right: 20px;
+  }
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+  }
+nav ul li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: Montserrat;
+}
+a.active,a:hover{
+    color: #9900F0;
+    transition-delay: 0.5ms;
+}
+.home{
+    color: #9900F0;
+    height: 458px;
+    padding: 150px;
+    font-size: 20px;
+}
+.cover{
+    position: relative;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    background:url("/img/22.jpg");
+    background-repeat: no-repeat;
+}
+h1.home,h1:hover{
+    color: blue;
+}
+p.home,p:hover{
+    color: blue;
+}
+
+.d{
+    padding: 50px;
+    margin-bottom: 30px;
+}
+.carte{
+    display: flex;
+    justify-content: center;
+    image-rendering: crisp-edges;
+    margin-right:15px;
+ 
+
+}
+.card-title{
+color: #9900F0;
+}
+.s1{
+    width: 300px;
+    height: 300px;
+    padding-left: 70px;
+   text-align: left; 
+   margin-bottom: 0px;
+   font-size: 15px;
+    
+}
+.s2{
+    width: 300px;
+    height: 300px;
+    padding-left: 70px;
+   text-align: left; 
+    margin-bottom: 0px;
+    
+}
+
+.flex{
+    display: flex;
+    
+    padding: 50px;
+    margin-bottom: 500px;
+}
+.big {
+    display: flex;
+}
+.card-img-top{
+    box-shadow: 30px;
+    box-shadow: 5px 10px inset;
+    box-shadow: 0px 0px 15px rgba(109, 90, 90, 0);
+}
+.espace{
+    margin-right: 15px;
+}
+.button{
+    text-decoration: none;
+}
+.width{
+    width: 100%;
+    height: 10px;
+    background-color: #9900F0;
+    margin-top: -46px;
+}
+NOURAN{
+    margin-left: 40px;
+    margin-bottom: 50px;
+    width: 40%;
+    
+}
+
+.modif{
+    margin-left: 40px;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+.width2{
+    width: 100%;
+    height: 10px;
+    background-color: #9900F0;
+    margin-top: 20px;
+}
+.ok{
+    
+    padding-top: 15px;
+    
+}
+.boss{
+    float: right;
+    margin-right: 56px;
+}
+.box {
+    margin-left: 50px;
+    padding-top: 107px;
+}
+.width3{
+    width: 100%;
+    height: 10px;
+    background-color: #9900F0;
+    margin-top: 77px;
+}
+.video{
+    margin-top: 55px;
+    margin-left: 50px;
+}
+#tunis{
+    margin-top: 25px;
+}
+.comment{
+    margin-left: 100px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.gratuite{
+    width: 500px;
+    height: 139px;
+ margin-bottom: 80px;
+    margin-left: 95px;
+    padding-left: 15px;
+}
+.make{
+    display: flex;
+    
+}
+.b1 {
+    padding-left: 20px;
+    padding-bottom: 15px;
+}
+.width4 {
+    background-color: black;
+    width:auto;
+    height: 15px;
+}
+.width5 {
+    background-color: #9900F0;
+    width: auto;
+    height: 15px;
+}
+.partenaire {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.only {
+    padding-bottom: 20px;
+}
+

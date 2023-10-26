@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>NOURAN</title>
+	<link rel="stylesheet" href="style.css">
+
+	<style>
+		input[type=text],
+		select,
+		textarea {
+			width: 100%;
+			padding: 12px;
+			border: 1px solid #ccc;
+			border-radius: 4px;
+			box-sizing: border-box;
+			margin-top: 6px;
+			margin-bottom: 16px;
+			resize: vertical;
+		}
+
+		input[type=submit] {
+			background-color: #9900F0;
+			color: white;
+			padding: 12px 20px;
+			border: none;
+			border-radius: 4px;
+			cursor: pointer;
+		}
+
+		input[type=submit]:hover {
+			background-color: #56107f;
+		}
+
+		.container {
+			border-radius: 5px;
+			background-color: #f2f2f2;
+			padding: 20px;
+		}
+	</style>
+	<!-- CSS only -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+	 crossorigin="anonymous">
+
+</head>
+
+<body>
+
+	<nav>
+        <a href="index.html"><label class="logo">NOURAN</label></a>
+        <ul>
+            <li><a class="active" href="index.html">Acceuil</a></li>
+            <li><a href="vente.html">Vente</a></li>
+            <li><a href="location.html">Location</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="annonce.html">Deposer</a></li>
+            <li><a href="index.php">Connexion</a></li>
+
+
+        </ul>
+    </nav>
+
+
+
+  <div class="container">
+    
+    <form action="index.html">
+      <label for="fname">Nom</label>
+      <input type="text" id="fname" name="firstname" placeholder="Ton nom..">
+
+      <label for="lname">Prénom</label>
+      <input type="text" id="lname" name="lastname" placeholder="Ton prénom..">
+
+      <label for="Pays">Pays</label>
+      <select id="country" name="country">
+        <option value="Tunisie">Tunisie</option>
+        <option value="Algérie">Algérie</option>
+        <option value="Libye">Libye</option>
+      </select>
+
+      <label for="subject">Sujet</label>
+      <textarea id="subject" name="subject"  style="height:200px"></textarea>
+
+      <input type="submit" value="Envoyer" >
+      <div class="toast">
+  <div class="toast-header">
+    Toast Header
+  </div>
+  <div class="toast-body">
+    Some text inside the toast body
+  </div>
+</div>
+    </form>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>

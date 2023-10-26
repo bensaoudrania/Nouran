@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nouran</title>
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        input[type=text],
+        select,
+        textarea {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+            margin-top: 6px;
+            margin-bottom: 16px;
+            resize: vertical;
+        }
+
+        input[type=submit] {
+            background-color: #9900F0;
+            color: white;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        input[type=submit]:hover {
+            background-color: #56107f;
+        }
+
+        .container {
+            border-radius: 5px;
+            background-color: #f2f2f2;
+            padding: 20px;
+        }
+    </style>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+</head>
+
+<body>
+
+   <nav>
+        <a href="index.html"><label class="logo">NOURAN</label></a>
+        <ul>
+            <li><a class="active" href="index.html">Acceuil</a></li>
+            <li><a href="vente.html">Vente</a></li>
+            <li><a href="location.html">Location</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="annonce.html">Deposer</a></li>
+            <li><a href="index.php">Connexion</a></li>
+
+
+        </ul>
+    </nav>
+
+
+
+
+    <div class="container">
+
+        <form>
+            <label for="offre">Offre</label> <br>
+           
+            <input  type="checkbox" name="Location" value="Location"> Location<br>
+            <input type="checkbox" name="Vente" value="Vente"> Vente<br> <br>
+
+            <label for="lname">Titre de votre Annonce</label>
+            <input type="text" id="lname" required name="lastname" placeholder="Votre titre">
+            <label>Région/Ville:</label>    
+            <select name="region" >
+                <option value="">Choisissez la Région</option>
+                <option value="">Ben Arous</option>
+                <option value="">Ariana</option>
+            <option value="">Béja</option>
+
+                <option value="">Bizerte</option>
+                <option value="">Gabes</option>
+                <option value="">Gafsa</option>
+                <option value="">Jandouba</option>
+            <option value="">Kairouan</option>
+
+                <option value="">Kasserine</option>
+                <option value="">Kébili</option>
+                <option value="">Kef</option>
+                <option value="">Mannouba</option>
+            <option value="">Sousse </option>
+
+                <option value="">Mahdia</option>
+                <option value="">Tunis</option>
+                <option value="">Sfax</option>
+                <option value="">Monastir</option>
+            <option value="">Nabeul </option>
+
+            
+            </select>
+            <label for="lname">Adresse de votre Annonce</label>
+            <input type="text" id="lname" required name="lastname" placeholder="Votre titre">
+            <label for="subject">Description</label>
+            <textarea id="subject" name="subject" style="height:200px" required></textarea>
+            <label for="lname">Prix</label>
+            <input type="text" id="prix" required name="prix" placeholder="Prix">
+       
+           
+         
+
+           
+            <label for="">categorie</label>
+            <select id="categorie" name="categorie">
+                <option value="">Choisissez la categorie</option>
+                <option name="categorie" value="appartement">appartement</option>
+                <option value="maison">maison</option>
+                <option value="villa">villa</option>
+                <option value="terrain">terrain</option>
+                <option value="bureau">bureau</option>
+            </select>
+
+           
+
+            <label for="img">image:</label>
+            <input type="file" id="img" name="img" required accept="image/*">
+
+
+            <input type="submit" value="Envoyer">
+        </form>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
